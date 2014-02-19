@@ -36,7 +36,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -128,6 +128,8 @@
 <text x="3.429" y="2.794" size="1.016" layer="22" font="vector" ratio="15" rot="MR90">GND</text>
 <text x="1.778" y="15.748" size="0.762" layer="16" font="vector" ratio="15" rot="MR270">V10</text>
 <text x="15.24" y="-17.78" size="1.778" layer="27" font="vector" ratio="15">Jordan McConnell</text>
+<text x="-72.39" y="0" size="1.778" layer="51" font="vector" ratio="15">Jordan McConnell</text>
+<text x="-86.614" y="-3.048" size="1.778" layer="51" font="vector" ratio="15">Revised by: Patrick Alberts</text>
 </plain>
 <libraries>
 <library name="SparkFun">
@@ -592,9 +594,6 @@ design rules under a new name.</description>
 <wire x1="3.81" y1="4.95" x2="4.315" y2="4.445" width="1.27" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="3,16,8ce156eb2d69f763"/>
-</errors>
 </board>
 </drawing>
 </eagle>
